@@ -1,0 +1,56 @@
+.mt-4{
+  margin-top: 50px;
+}
+
+.noRecipe{
+  display: none;
+}
+
+.Recipe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px auto;
+  padding: 5px;
+  width:550px;
+  border-bottom: 1px dashed #000;
+}
+
+.recipeText{
+  display: inline-block;
+  text-align: left;
+  padding-right: 10px;
+  width: 400px;
+}
+
+.recipeImg{
+  display: inline-block;
+  right:0;
+  width:100px;
+  height:100px;
+  object-fit: cover;
+  border-radius: 2px;
+  border:1px solid black;
+}
+
+.star{
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.favoriteRecipes .star{
+  display: none;
+}
+
+.navLink{
+  position: absolute;
+  top:40px;
+  left:80px;
+  font-size: 20px;
+}
+
+
+.favoriteRecipes .Recipe{
+  width:500px;
+}
